@@ -62,13 +62,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scenes\Dage.cs" />
-    <Compile Include="Assets\Scenes\MyCamera.cs" />
-    <Compile Include="Assets\Visual Design Cafe\Plugins\com.VisualDesignCafe.NatureRenderer\NatureRenderer.SRP.cs" />
-    <None Include="Assets\Visual Design Cafe\Nature Shaders\Common\Nodes\Integrations\Nature Renderer.cginc" />
-    <None Include="Assets\Visual Design Cafe\Plugins\com.VisualDesignCafe.NatureRenderer\Resources\Nature Renderer.compute" />
-    <None Include="Assets\Visual Design Cafe\Stylized Nature - Grasslands\Sample Pack.txt" />
-    <None Include="Assets\Visual Design Cafe\Stylized Nature\Standard\PostProcessing Profiles\Use with Unity's Postprocessing Stack.txt" />
+    <Compile Include="Assets\Scripts\FootFlag.cs" />
+    <Compile Include="Assets\Scripts\MyCamera.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -274,52 +270,52 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Nature">
-      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Visual Design Cafe/Nature Shaders/Plugins/VisualDesignCafe.Nature.dll</HintPath>
+      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Plugins/Visual Design Cafe/Nature Shaders/Plugins/VisualDesignCafe.Nature.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Nature.Editor">
-      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Visual Design Cafe/Nature Shaders/Plugins/VisualDesignCafe.Nature.Editor.dll</HintPath>
+      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Plugins/Visual Design Cafe/Nature Shaders/Plugins/VisualDesignCafe.Nature.Editor.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Memory">
-      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Visual Design Cafe/Plugins/com.VisualDesignCafe.NatureRenderer/VisualDesignCafe.Memory.dll</HintPath>
+      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Plugins/Visual Design Cafe/Plugins/com.VisualDesignCafe.NatureRenderer/VisualDesignCafe.Memory.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Pooling">
-      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Visual Design Cafe/Plugins/com.VisualDesignCafe.NatureRenderer/VisualDesignCafe.Pooling.dll</HintPath>
+      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Plugins/Visual Design Cafe/Plugins/com.VisualDesignCafe.NatureRenderer/VisualDesignCafe.Pooling.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Rendering">
-      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Visual Design Cafe/Plugins/com.VisualDesignCafe.NatureRenderer/VisualDesignCafe.Rendering.dll</HintPath>
+      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Plugins/Visual Design Cafe/Plugins/com.VisualDesignCafe.NatureRenderer/VisualDesignCafe.Rendering.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Rendering.Nature">
-      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Visual Design Cafe/Plugins/com.VisualDesignCafe.NatureRenderer/VisualDesignCafe.Rendering.Nature.dll</HintPath>
+      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Plugins/Visual Design Cafe/Plugins/com.VisualDesignCafe.NatureRenderer/VisualDesignCafe.Rendering.Nature.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Rendering.Nature.Editor">
-      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Visual Design Cafe/Plugins/com.VisualDesignCafe.NatureRenderer/VisualDesignCafe.Rendering.Nature.Editor.dll</HintPath>
+      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Plugins/Visual Design Cafe/Plugins/com.VisualDesignCafe.NatureRenderer/VisualDesignCafe.Rendering.Nature.Editor.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Threading">
-      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Visual Design Cafe/Plugins/com.VisualDesignCafe.NatureRenderer/VisualDesignCafe.Threading.dll</HintPath>
+      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Plugins/Visual Design Cafe/Plugins/com.VisualDesignCafe.NatureRenderer/VisualDesignCafe.Threading.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Editor.Community">
-      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Visual Design Cafe/Plugins/com.VisualDesignCafe.PackageManager/VisualDesignCafe.Editor.Community.dll</HintPath>
+      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Plugins/Visual Design Cafe/Plugins/com.VisualDesignCafe.PackageManager/VisualDesignCafe.Editor.Community.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Editor.Events">
-      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Visual Design Cafe/Plugins/com.VisualDesignCafe.PackageManager/VisualDesignCafe.Editor.Events.dll</HintPath>
+      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Plugins/Visual Design Cafe/Plugins/com.VisualDesignCafe.PackageManager/VisualDesignCafe.Editor.Events.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Editor.PackageManager">
-      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Visual Design Cafe/Plugins/com.VisualDesignCafe.PackageManager/VisualDesignCafe.Editor.PackageManager.dll</HintPath>
+      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Plugins/Visual Design Cafe/Plugins/com.VisualDesignCafe.PackageManager/VisualDesignCafe.Editor.PackageManager.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Editor.Web">
-      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Visual Design Cafe/Plugins/com.VisualDesignCafe.PackageManager/VisualDesignCafe.Editor.Web.dll</HintPath>
+      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Plugins/Visual Design Cafe/Plugins/com.VisualDesignCafe.PackageManager/VisualDesignCafe.Editor.Web.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Packages">
-      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Visual Design Cafe/Plugins/com.VisualDesignCafe.PackageManager/VisualDesignCafe.Packages.dll</HintPath>
+      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Plugins/Visual Design Cafe/Plugins/com.VisualDesignCafe.PackageManager/VisualDesignCafe.Packages.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Editor.ShaderX">
-      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Visual Design Cafe/ShaderX/Plugins/VisualDesignCafe.Editor.ShaderX.dll</HintPath>
+      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Plugins/Visual Design Cafe/ShaderX/Plugins/VisualDesignCafe.Editor.ShaderX.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.ShaderX">
-      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Visual Design Cafe/ShaderX/Plugins/VisualDesignCafe.ShaderX.dll</HintPath>
+      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Plugins/Visual Design Cafe/ShaderX/Plugins/VisualDesignCafe.ShaderX.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.ShaderX.Editor">
-      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Visual Design Cafe/ShaderX/Plugins/VisualDesignCafe.ShaderX.Editor.dll</HintPath>
+      <HintPath>G:/MyPro/UnityPro/SickDog/SickDog-OpenWorld/Assets/Plugins/Visual Design Cafe/ShaderX/Plugins/VisualDesignCafe.ShaderX.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -681,6 +677,12 @@
     <Reference Include="Boo.Lang">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{79F652F0-AFBB-609A-5275-764D65E2425C}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
